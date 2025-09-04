@@ -1,0 +1,5 @@
+:root {
+  --shadow-header: 0 4px 18px rgba(128, 128, 128, 0.132);
+  --bgc-nav: rgba(128, 128, 128, 0.304);
+  --bgc-naf-after: rgb(0, 136, 247);
+}

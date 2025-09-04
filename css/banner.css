@@ -1,0 +1,12 @@
+.banner {
+  max-height: 600px;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 600px;
+
+  object-fit: cover;
+  object-position: center;
+}
