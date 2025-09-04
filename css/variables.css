@@ -1,5 +1,10 @@
 :root {
-  --shadow-header: 0 4px 18px rgba(128, 128, 128, 0.132);
+--primary-color:#0a4d8c;
+
+  --shadow-header: 0 4px 18px rgba(128, 128, 128, 0.582);
+  --shadow-title-service: 0 2px 18px rgb(128, 128, 128);
+
   --bgc-nav: rgba(128, 128, 128, 0.304);
-  --bgc-naf-after: rgb(0, 136, 247);
+  --bgc-naf-after: #0088f7;
+  --bgc-body: #ffffff;
 }

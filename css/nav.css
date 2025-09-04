@@ -1,6 +1,6 @@
 nav {
   position: absolute;
-  top: 25%;
+  top: 180px;
   left: 50%;
   transform: translateX(-50%);
   font-style: oblique;
@@ -45,12 +45,6 @@ nav ul li:hover {
 }
 
 @media (max-width: 728px) {
-  nav {
-    position: absolute;
-    display: flex;
-    left: 50%;
-    top: 25%;
-  }
   nav ul {
     flex-direction: row;
     gap: 30px;
@@ -59,9 +53,6 @@ nav ul li:hover {
 }
 
 @media (max-width: 480px) {
-  nav {
-    top: 23%;
-  }
   nav ul {
     justify-content: center;
     align-items: center;
