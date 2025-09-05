@@ -28,13 +28,14 @@ form input {
 
 form button {
   padding: 10px;
-  width: 80px;
+  width: 120px;
   border-radius: 50px;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--shadow-form);
   color: white;
   transition: all 0.2s ease-in-out;
+  font-size: 1rem;
 }
 
 form button:hover {
@@ -56,4 +57,16 @@ form textarea {
   width: 90%;
   max-width: 738px;
   height: 138px;
+}
+
+form input {
+  width: 70%;
+  max-width: 250px;
+}
+
+@media (max-width: 728px) {
+  .contact {
+    font-size: 1rem;
+    width: 100%;
+  }
 }

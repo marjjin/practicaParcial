@@ -16,6 +16,11 @@
   padding: 15px;
   margin: 20px auto;
   box-shadow: var(--shadow-title-service);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
 }
 
 .container-cards .card img {
