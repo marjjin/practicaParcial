@@ -1,0 +1,32 @@
+.descriptionServicePage {
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: var(--shadow-header);
+}
+
+.descriptionServicePage h2 {
+  position: relative;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.descriptionServicePage p {
+  line-height: 27px;
+}
+
+.descriptionServicePage h2::before {
+  position: absolute;
+  border: 1px solid var(--primary-color);
+  content: "";
+  width: 100%;
+  height: 1px;
+  left: 0%;
+  bottom: -30%;
+  background-color: var(--primary-color);
+}
